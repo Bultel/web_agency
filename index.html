@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Lightbox/lightbox.min.css">
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+        <link href="style.css" rel="stylesheet">
+
+        <link href="laptop-layout.css" rel="stylesheet" media="screen and (max-width: 1120px) and (min-width:1000px)">
+
+        <link href="tablet-layout.css" rel="stylesheet" media="screen and (min-width: 640px) and (max-width:1000px)">
+
+        <link href="mobile-layout.css" rel="stylesheet" media="screen and (max-width:640px)">
+
+        <link href="pc-layout.css" rel="stylesheet" media="screen and (min-width:1000px)">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+
+        <link rel="icon" href="images/favicon.ico">
+
+        <title>WebAgency</title>
+    </head>
+
+    <body>
+        <!--Logo navbar-->
+        <header>
+            <div id="en_tete">
+                <div id="logo">
+                    <img class="logo" src="images/logo.png" alt="Logo Webagency"> 
+                </div>
+
+                <div id="navbar">
+                    <ul>
+                        <li class="nav_item"><a href="#carousel">Accueil</a></li>
+                        <li class="nav_item"><a href="#Nos_services">Services</a></li>
+                        <li class="nav_item"><a href="#Projets">Portfolio</a></li>
+                        <li class="nav_item"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!--Navbarmobile-->
+                <div id="navbar-mobile">
+                    <label for="show-menu" class="show-menu"><img src="images/logo.png" alt="Logo Webagency"></label>
+                    <input type="checkbox" id="show-menu" role="button">
+                    <ul id="menu">
+                        <li><a href="#contact">Contact</a></li>
+                        <li>
+                            <a href="#Projets">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#Nos_services">Services</a>
+                        </li>
+                        <li><a href="#carousel">Accueil</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </header>
+
+        <!--Carousel-->
+
+        <div id="carousel">
+            <div class="carousel-inner">
+
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel"   hidden="" checked="checked">
+                <div class="carousel-item">
+
+                    <div class="carousel-text1">
+                        <h1><span style="color: #5cadd3">WEBAGENCY</span> : AGENCE DE <br>COMMUNICATION WEB</h1>
+                        <p style="font-size: 2vw">Vous avez un projet web ? La WebAgency vous<br> aide à le réaliser !</p>
+                       <button class="btn-info"><a href="#contact">Plus d'infos</a></button>
+                    </div>
+                </div>
+
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" hidden="">
+                <div class="carousel-item">
+
+                    <div class="carousel-text2">
+                        <h1>LE WEBDESIGN À SON <br>APOGÉE</h1>
+                        <p style="font-size: 2vw">En panne d'inspiration ? nos spécialistes vous aide à créer <br>le meilleur webdesign possible</p>
+                        <button class="btn-service"><a href="Nos_services">Nos services</a></button>
+                        
+                    </div>
+                </div>
+
+                <label for="carousel-2" class="carousel-control next control-1">›</label>
+                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                <label for="carousel-2" class="carousel-control prev control-1">‹</label>
+                <label for="carousel-1" class="carousel-control next control-2">›</label>
+
+            </div>
+        </div>
+        <!-- Nos Services -->
+
+
+        <div id="Nos_services">
+            <h2>NOS SERVICES</h2>
+            <hr>
+            <p><strong>Application, site web, webdesign, webmarketing</strong>, l'expérience de notre agence web dans ces domaines vous aide à rendre votre projet agréable visuellement et égonomique tout en le gardant bien placé dans le moteur de recherche de vos utilisateurs.</p>
+
+
+            <!-- Services -->
+
+            <img src="images/main-feature.png" alt="Photo Apple mac avec un site internet" class="img_pc">
+
+            <div class="services_description">
+
+                <div class="services_text">
+
+                    <!-- UX DESIGN -->
+
+                    <div class="UX_design">
+                        <div class="UX_logo">
+                            <div class="bulle"></div>
+                            <i class="fas fa-chart-line fa-lg"></i>
+                        </div>
+                        <div class="UX_texte">
+                            <h3><strong>Expérience utilisateur (UX Design)</strong></h3><br> L'
+                            <strong>UX design</strong> prend en compte les attentes et les besoins de l’internaute pour l’amener à concrétiser son action, le tout sans trop d’effort et dans un environnement fluide, agréable et rassurant.
+                        </div>
+                    </div>
+                    <!-- UI DESIGN -->
+
+                    <div class="UI_design">
+                        <div class="UI_logo">
+                            <div class="bulle"></div>
+                            <i class="fas fa-cubes fa-lg"></i>
+                        </div>
+                        <div class="UI_texte">
+                            <h3><strong>Interface utilisateur (UI Design)</strong></h3><br> L'
+                            <strong>UI design</strong> est tout simplement l’une des composantes de l’expérience utilisateur. Il s’agit de rendre l’expérience de navigation la plus intuitive possible via un design fonctionnel, qui inspire confiance et qui permette à l’utilisateur d’arriver à son but.
+                        </div>
+                    </div>
+
+                    <!-- SEO -->
+
+                    <div class="SEO">
+                        <div class="SEO_logo">
+                            <div class="bulle"></div>
+                            <i class="fas fa-chart-pie fa-lg"></i>
+                        </div>
+                        <div class="SEO_texte">
+                            <h3><strong>Référencement (SEO)</strong></h3><br> Le <strong>webmarketing</strong> est une science, le référencement web regroupe un ensemble de techniques permettant de faire apparaître votre site Internet dans les résultats des moteurs de recherche vous aidant ainsi à ameliorer le nombre de visite et de repondre avec precision aux question de vos utilisateurs.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- portfolio -->
+
+        <div id="Projets">
+            <div id="Nos_projets">
+
+                <h2>NOS PROJETS</h2>
+                <hr>
+
+                <p><strong>Forte de cinq années d'expérience</strong>, notre agence a pu accompagner bon nombre de projets. Consultez nos meilleures références.</p>
+            </div>
+
+            <div class="tab-frame">
+
+
+                <input type="radio" checked name="tab" id="tab1">
+                <label for="tab1" style="margin-left: 37%">All works<i class="fas fa-caret-down"></i></label>
+
+                <input type="radio" name="tab" id="tab2">
+                <label for="tab2">Créative<i class="fas fa-caret-down"></i></label>
+
+                <input type="radio" name="tab" id="tab3">
+                <label for="tab3">Corporate<i class="fas fa-caret-down"></i></label>
+
+                <input type="radio" name="tab" id="tab4">
+                <label for="tab4">Portfolio<i class="fas fa-caret-down"></i></label>
+
+
+
+                <!-- All Works -->
+                <div class="all_projets">
+
+                    <div class="tab">
+                    </div>
+
+                    <!-- Créations -->
+
+                    <div class="tab">
+                        <figure class="img_projets">
+                            <a href="images/portfolio/01.jpg" data-lightbox="image-1" data-title="www.orthofun.com">
+                                <img src="images/portfolio/01.jpg" alt="fausse lunette"></a>
+                            <figcaption>
+                                <h4><strong>www.orthofun.com <i class="fas fa-eye"></i></strong></h4>
+                                <p>Création d'un site d'apprentissage de la langue française.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="img_projets">
+                            <a href="images/portfolio/06.jpg" data-lightbox="image-2" data-title="www.street-art.com">
+                                <img src="images/portfolio/06.jpg" alt="ville rouge"></a>
+                            <figcaption>
+                                <h4><strong>www.street-art.com<i class="fas fa-eye"></i></strong></h4>
+                                <p>Création d'une image de ville futuriste. </p>
+                            </figcaption>
+                        </figure>
+                        <figure class="img_projets">
+                            <a href="images/portfolio/02.jpg" data-lightbox="image-3" data-title="www.mairiedetule.com"><img src="images/portfolio/02.jpg" alt="Lapin rose paques"></a>
+                            <figcaption>
+                                <h4><strong>www.mairiedetule.com<i class="fas fa-eye"></i></strong></h4>
+                                <p>Création d'un flyer pour <br>paques.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="img_projets">
+                            <a href="images/portfolio/04.jpg" data-lightbox="image-4" data-title="www.abacus.com">
+                                <img src="images/portfolio/04.jpg" alt="livre blanc"></a>
+                            <figcaption>
+                                <h4><strong>www.abacus.com<i class="fas fa-eye"></i></strong></h4>
+                                <p>Maquette de carte de visite <br> pour un architecte.</p>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+
+                    <!-- Maquettes -->
+
+                    <div class="tab">
+
+                        <figure class="img_projets">
+                            <a href="images/portfolio/05.jpg" data-lightbox="image-5" data-title="www.toutpourlui.com">
+                                <img src="images/portfolio/05.jpg" alt="sac de shopping"></a>
+                            <figcaption>
+                                <h4><strong>www.toutpourlui.com<i class="fas fa-eye"></i></strong></h4>
+                                <p>Sac pour un magasin de pret-à-porter homme.</p>
+                            </figcaption>
+                        </figure>
+
+
+                        <figure class="img_projets">
+                            <a href="images/portfolio/09.jpg" data-lightbox="image-5" data-title="www.Jeffburger.com">
+                                <img src="images/portfolio/09.jpg" alt="Hamburger"></a>
+                            <figcaption>
+                                <h4><strong>www.Jeffburger.com<i class="fas fa-eye"></i></strong></h4>
+                                <p>Affiche pour un food-truck.</p>
+                            </figcaption>
+                        </figure>
+
+
+                        <figure class="img_projets">
+                            <a href="images/portfolio/08.jpg" data-lightbox="image-6" data-title="www.ecoleducentre.com"><img src="images/portfolio/08.jpg" alt="fourniture de bureau"></a>
+                            <figcaption>
+                                <h4><strong>www.ecoleducentre.com<i class="fas fa-eye"></i></strong></h4>
+                                <p>Maquette application <br>intéractive de fourniture scolaire.</p>
+                            </figcaption>
+                        </figure>            
+                    </div>
+
+                    <!-- LOGOS -->
+                    <div class="tab">
+                        <figure class="img_projets">
+                            <a href="images/portfolio/03.jpg" data-lightbox="image-7" data-title="www.pompadour.com">
+                                <img src="images/portfolio/03.jpg" alt="logo Pompadour"></a>
+                            <figcaption>
+                                <h4><strong>www.pompadour.com<i class="fas fa-eye"></i></strong></h4>
+                                <p>Logo pour une marque de sodas.</p>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="img_projets">
+                            <a href="images/portfolio/07.jpg" data-lightbox="image-8" data-title="www.starfight.com">
+                                <img src="images/portfolio/07.jpg" alt="fusée"></a>
+                            <figcaption>
+                                <h4><strong>www.starfight.com<i class="fas fa-eye"></i></strong></h4>
+                                <p>Logo pour une team de jeux vidéo.</p>
+                            </figcaption>
+                        </figure>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+
+        <div id="contact">
+            <div class="form">
+
+                <div class="contact-form">
+                    <h2 class="contact-title">Contact-Info</h2>
+                    <p class="contact-address">WebAgency<br>25 rue d'hauteville 75010 Paris<br> Tél: 01 02 03 04 05</p>
+
+                    <div class="contact-form-input">
+                        <input class="contact-input" type="text" name="nom" placeholder="Nom">
+                    </div>
+
+                    <div class="contact-form-input">
+                        <input class="contact-input" type="email" name="email" placeholder="Email">
+                    </div>
+
+                    <div class="contact-form-input">
+                        <input class="contact-input" type="text" name="objet" placeholder="Objet">
+                    </div>
+
+                    <div class="contact-form-textarea">
+                        <textarea class="contact-textarea" name="message"  placeholder="Message" ></textarea>
+                    </div>
+
+                    <button class="contact-form-button">Envoyer le message</button>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2054231320176!2d2.3492479131225776!3d48.873360368851074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145cb52f15%3A0x4d3ec41b2cadff0!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1524048881490" width="100%" height="800" style="border:0" allowfullscreen></iframe>
+
+            </div>
+        </div>
+        <!-- LIGHTBOX -->
+        <script src="Lightbox/lightbox-plus-jquery.min.js"></script>
+    </body>
+
+</html>

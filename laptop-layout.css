@@ -1,0 +1,12 @@
+#navbar-mobile{
+    display: none;
+}
+.img_projets{
+    width: inherit;
+}
+figure{
+    float: none;
+}
+.all_projets{
+    display: inline-flex;
+}
